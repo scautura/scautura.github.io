@@ -1,0 +1,129 @@
+#char-list {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+  overflow-x: hidden;
+  background-color: #1a1a1a;
+  border-radius: 0.4em;
+}
+
+/* character list appearance/ordering */
+#char-list.float {
+  position: fixed;
+--  left: 1em;
+  right: 1em;
+  top: 0.4em;
+  gap: 0.5em;
+  flex-direction: column;
+}
+
+#char-list.row{
+  position: relative;
+  gap: 1em;
+  flex-direction: row;
+}
+
+@media screen and (min-width:1599px) {
+  #char-list.dynamic {
+    position: absolute;
+    left: 1em;
+    gap: 0.5em;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:1600px) {
+  #char-list.dynamic {
+    position: relative;
+    gap: 1em;
+	flex-direction: row;
+  }
+}
+
+/* character link appearances */
+#char-list a {
+  border: 0;
+  color: white;
+  border-radius: 5px;
+  padding: 0.2em 0.5em;
+}
+
+#char-list a:hover {
+  background: var(--color-border)
+}
+
+#char-list .char {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+}
+
+#char-list .char,
+#char-list .char>*{flex-shrink:0;}
+#char-list .char img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin: 0;
+}
+
+#chars img {
+  margin: 0;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+div.icons img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+div.gallery {
+  --columns: 4;
+}
+
+div.gallery img {
+  transition: all 0.5s ease;
+}
+
+div.gallery img:hover {
+  transform: scale(3.0);
+}
+
+div.char-gallery {
+  --columns: 4;
+}
+
+div.ideas {
+  --flex: 1 1 50%;
+  flex-wrap: wrap;
+}
+
+div.ideas > * {
+  width: 48%;
+  border: 1px groove var(--color-border);
+  border-radius: 5px;
+  background-color: var(--color-bg);
+  padding: 10px;
+  margin: 5px;
+}
+
+div.playlist img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+details.gallery {
+  width: 49%;
+  display: inline-block;
+}
+
+details#photographic:not(:open) ~ div#photographic {
+  display: none;
+}
+
+details#artwork:not(:open) ~ div#artwork {
+  display: none;
+}
