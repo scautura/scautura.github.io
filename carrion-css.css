@@ -3,16 +3,15 @@
   width: fit-content;
   margin: auto;
   overflow-x: hidden;
-  background-color: #1a1a1a;
+  background-color: var(--color-surface);
   border-radius: 0.4em;
 }
 
 /* character list appearance/ordering */
 #char-list.float {
   position: fixed;
---  left: 1em;
   right: 1em;
-  top: 0.4em;
+  top: 5em;
   gap: 0.5em;
   flex-direction: column;
 }
