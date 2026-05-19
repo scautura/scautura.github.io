@@ -126,3 +126,27 @@ details#photographic:not(:open) ~ div#photographic {
 details#artwork:not(:open) ~ div#artwork {
   display: none;
 }
+
+details#one:not(:open) ~ div#one {
+  display: none;
+}
+
+details#two:not(:open) ~ div#two {
+  display: none;
+}
+
+details#three:not(:open) ~ div#three {
+  display: none;
+}
+
+details#four:not(:open) ~ div#four {
+  display: none;
+}
+
+details#five:not(:open) ~ div#five {
+  display: none;
+}
+
+details#six:not(:open) ~ div#six {
+  display: none;
+}
