@@ -150,3 +150,35 @@ details#five:not(:open) ~ div#five {
 details#six:not(:open) ~ div#six {
   display: none;
 }
+
+details#photographic:not(:open) ~ div#content-photographic {
+  display: none;
+}
+
+details#artwork:not(:open) ~ div#content-artwork {
+  display: none;
+}
+
+details#one:not(:open) ~ div#content-one {
+  display: none;
+}
+
+details#two:not(:open) ~ div#content-two {
+  display: none;
+}
+
+details#three:not(:open) ~ div#content-three {
+  display: none;
+}
+
+details#four:not(:open) ~ div#content-four {
+  display: none;
+}
+
+details#five:not(:open) ~ div#content-five {
+  display: none;
+}
+
+details#six:not(:open) ~ div#content-six {
+  display: none;
+}
