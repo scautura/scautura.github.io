@@ -119,38 +119,6 @@ details.gallery {
   display: inline-block;
 }
 
-details#photographic:not(:open) ~ div#photographic {
-  display: none;
-}
-
-details#artwork:not(:open) ~ div#artwork {
-  display: none;
-}
-
-details#one:not(:open) ~ div#one {
-  display: none;
-}
-
-details#two:not(:open) ~ div#two {
-  display: none;
-}
-
-details#three:not(:open) ~ div#three {
-  display: none;
-}
-
-details#four:not(:open) ~ div#four {
-  display: none;
-}
-
-details#five:not(:open) ~ div#five {
-  display: none;
-}
-
-details#six:not(:open) ~ div#six {
-  display: none;
-}
-
 details#photographic:not(:open) ~ div#content-photographic {
   display: none;
 }
@@ -181,4 +149,63 @@ details#five:not(:open) ~ div#content-five {
 
 details#six:not(:open) ~ div#content-six {
   display: none;
+}
+
+h1 {
+  border-bottom: none;
+}
+
+h2 {
+  border-bottom: 1px solid #3a3a3a;
+}
+
+.hover-image {
+  align-self: center;
+  justify-self: stretch;
+  flex: 1;
+  position: relative;
+  min-height: 500px;
+
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 75% center;
+  }
+
+  & .hover-on {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 0.5s linear;
+  }
+
+  &:hover .hover-on {
+    opacity: 1;
+  }
+}
+
+.flow-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: max-content;
+  gap: 10px;
+  margin: 10px auto;
+
+  & a {
+    display: flex;
+    border-radius: 50%;
+
+    &:hover {
+      border-bottom: 0 transparent;
+    }
+  }
+
+  & img {
+    width: 100px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    margin: 0;
+  }
 }
