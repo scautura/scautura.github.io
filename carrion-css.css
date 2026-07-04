@@ -74,6 +74,28 @@
   object-fit: contain;
 }
 
+.kg-hub {
+  background-color: var(--color-surface);
+  border-radius: 0.4em;
+}
+
+.kg-hub a {
+  border: 0;
+  color: white;
+  padding: 0.2em 0.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+}
+
+.kg-hub a img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin: 0;
+}
+
 div.icons img {
   max-width: 200px;
   max-height: 200px;
@@ -161,6 +183,7 @@ h1 {
   flex: 1;
   position: relative;
   min-height: 500px;
+  
 
   & img {
     width: 100%;
