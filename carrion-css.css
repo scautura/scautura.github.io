@@ -96,7 +96,7 @@ div.kg-kristian, div.kg-asami, div.kg-steve, div.kg-remy, div.kg-vygo {
   transform: scaleY(1);
 }
 
-.cs-tabs:not(:has(.cs-tab-a:open)) div.kg-kristian, .cs-tabs:not(:has(.cs-tab-b:open)) div.kg-asami, .cs-tabs:not(:has(.cs-tab-c:open)) div.kg-steve, .cs-tabs:not(:has(.cs-tab-d:open)) div.kg-remy {
+.cs-tabs:not(:has(.cs-tab-a:open)) div.kg-kristian, .cs-tabs:not(:has(.cs-tab-b:open)) div.kg-asami, .cs-tabs:not(:has(.cs-tab-c:open)) div.kg-steve, .cs-tabs:not(:has(.cs-tab-d:open)) div.kg-remy, .cs-tabs:not(:has(.cs-tab-e:open)) div.kg-vygo {
   height: 0;
   overflow: hidden;
   display: block;
