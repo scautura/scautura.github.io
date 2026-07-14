@@ -65,36 +65,47 @@ details.gallery {
   display: inline-block;
 }
 
-details#photographic:not(:open) ~ div#content-photographic {
-  display: none;
+.kg-kristian, .kg-vygo{
+  border: 1px groove var(--cs-color-dull-red);
+  border-radius: 5px;
+  background: #252525;
 }
 
-details#artwork:not(:open) ~ div#content-artwork {
-  display: none;
+.kg-asami {
+  border: 1px groove var(--cs-color-red);
+  border-radius: 5px;
+  background: #252525;
 }
 
-details#one:not(:open) ~ div#content-one {
-  display: none;
+.kg-steve {
+  border: 1px groove var(--cs-color-dull-blue);
+  border-radius: 5px;
+  background: #252525;
 }
 
-details#two:not(:open) ~ div#content-two {
-  display: none;
+.kg-remy {
+  border: 1px groove var(--cs-color-pink);
+  border-radius: 5px;
+  background: #252525;
 }
 
-details#three:not(:open) ~ div#content-three {
-  display: none;
+div.kg-kristian, div.kg-asami, div.kg-steve, div.kg-remy, div.kg-vygo {
+  height: auto;
+  transition: 0.33s ease-out allow-discrete;
+  transform-origin: left top;
+  transform: scaleY(1);
 }
 
-details#four:not(:open) ~ div#content-four {
-  display: none;
-}
-
-details#five:not(:open) ~ div#content-five {
-  display: none;
-}
-
-details#six:not(:open) ~ div#content-six {
-  display: none;
+.cs-tabs:not(:has(.cs-tab-a:open)) div.kg-kristian, .cs-tabs:not(:has(.cs-tab-b:open)) div.kg-asami, .cs-tabs:not(:has(.cs-tab-c:open)) div.kg-steve, .cs-tabs:not(:has(.cs-tab-d:open)) div.kg-remy {
+  height: 0;
+  overflow: hidden;
+  display: block;
+  border: 0px none;
+  padding: 0;
+  margin: 0;
+  transition: 0.33s ease-in allow-discrete;
+  transform-origin: left top;
+  transform: scaleY(0)
 }
 
 h1 {
