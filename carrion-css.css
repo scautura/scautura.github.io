@@ -94,6 +94,7 @@ div.kg-kristian, div.kg-asami, div.kg-steve, div.kg-remy, div.kg-vygo {
   transition: 0.33s ease-out allow-discrete;
   transform-origin: left top;
   transform: scaleY(1);
+  padding: 10px;
 }
 
 .cs-tabs:not(:has(.cs-tab-a:open)) div.kg-kristian, .cs-tabs:not(:has(.cs-tab-b:open)) div.kg-asami, .cs-tabs:not(:has(.cs-tab-c:open)) div.kg-steve, .cs-tabs:not(:has(.cs-tab-d:open)) div.kg-remy, .cs-tabs:not(:has(.cs-tab-e:open)) div.kg-vygo {
