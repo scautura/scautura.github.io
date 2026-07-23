@@ -95,7 +95,7 @@ details.gallery {
   background: #252525;
 }
 
-div.kg-kristian, div.kg-asami, div.kg-steve, div.kg-remy, div.kg-vygo, div.kg-loki div.kg-profile-loki, div.kg-profile-lloki {
+div.kg-kristian, div.kg-asami, div.kg-steve, div.kg-remy, div.kg-vygo, div.kg-loki, div.kg-profile-loki, div.kg-profile-lloki {
   height: auto;
   transition: 0.33s ease-out allow-discrete;
   transform-origin: left top;
