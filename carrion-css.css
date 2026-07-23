@@ -95,6 +95,12 @@ details.gallery {
   background: #252525;
 }
 
+.kg-lloki {
+  border: 1px groove var(--cs-color-dull-green);
+  border-radius: 5px;
+  background: #252525;
+}
+
 div.kg-kristian, div.kg-asami, div.kg-steve, div.kg-remy, div.kg-vygo, div.kg-loki, div.kg-profile-loki, div.kg-profile-lloki, div.kg-profile-aloki {
   height: auto;
   transition: 0.33s ease-out allow-discrete;
