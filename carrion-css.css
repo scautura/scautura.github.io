@@ -95,7 +95,7 @@ details.gallery {
   background: #252525;
 }
 
-div.kg-kristian, div.kg-asami, div.kg-steve, div.kg-remy, div.kg-vygo, div.kg-loki, div.kg-profile-loki, div.kg-profile-lloki {
+div.kg-kristian, div.kg-asami, div.kg-steve, div.kg-remy, div.kg-vygo, div.kg-loki, div.kg-profile-loki, div.kg-profile-lloki, div.kg-profile-aloki {
   height: auto;
   transition: 0.33s ease-out allow-discrete;
   transform-origin: left top;
@@ -105,7 +105,7 @@ div.kg-kristian, div.kg-asami, div.kg-steve, div.kg-remy, div.kg-vygo, div.kg-lo
 
 .cs-tabs:not(:has(.cs-tab-a:open)) div.kg-kristian, .cs-tabs:not(:has(.cs-tab-b:open)) div.kg-asami, .cs-tabs:not(:has(.cs-tab-c:open)) div.kg-steve,
 .cs-tabs:not(:has(.cs-tab-d:open)) div.kg-remy, .cs-tabs:not(:has(.cs-tab-e:open)) div.kg-vygo, .cs-tabs:has(.cs-tab:open) div.kg-loki,
-.cs-tabs:not(:has(.cs-tab-a:open)) div.kg-profile-loki, .cs-tabs:not(:has(.cs-tab-b:open)) div.kg-profile-lloki {
+.cs-tabs:not(:has(.cs-tab-a:open)) div.kg-profile-loki, .cs-tabs:not(:has(.cs-tab-b:open)) div.kg-profile-lloki, .cs-tabs:has(.cs-tab:open) div.kg-profile-aloki, {
   height: 0;
   overflow: hidden;
   display: block;
