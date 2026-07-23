@@ -89,7 +89,13 @@ details.gallery {
   background: #252525;
 }
 
-div.kg-kristian, div.kg-asami, div.kg-steve, div.kg-remy, div.kg-vygo {
+.kg-loki {
+  border: 1px groove var(--cs-color-green);
+  border-radius: 5px;
+  background: #252525;
+}
+
+div.kg-kristian, div.kg-asami, div.kg-steve, div.kg-remy, div.kg-vygo, div.kg-loki {
   height: auto;
   transition: 0.33s ease-out allow-discrete;
   transform-origin: left top;
