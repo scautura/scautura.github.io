@@ -68,37 +68,37 @@ details.gallery {
 .kg-kristian, .kg-vygo{
   border: 1px groove var(--cs-color-dull-red);
   border-radius: 5px;
-  background: #252525;
+  background: var(--color-bg);
 }
 
 .kg-asami {
   border: 1px groove var(--cs-color-red);
   border-radius: 5px;
-  background: #252525;
+  background: var(--color-bg);
 }
 
 .kg-steve {
   border: 1px groove var(--cs-color-dull-blue);
   border-radius: 5px;
-  background: #252525;
+  background: var(--color-bg);
 }
 
 .kg-remy {
   border: 1px groove var(--cs-color-pink);
   border-radius: 5px;
-  background: #252525;
+  background: var(--color-bg);
 }
 
 .kg-loki {
   border: 1px groove var(--cs-color-green);
   border-radius: 5px;
-  background: #252525;
+  background: var(--color-bg);
 }
 
 .kg-lloki {
   border: 1px groove var(--cs-color-dull-green);
   border-radius: 5px;
-  background: #252525;
+  background: var(--color-bg);
 }
 
 div.kg-kristian, div.kg-asami, div.kg-steve, div.kg-remy, div.kg-vygo, div.kg-loki, div.kg-profile-loki, div.kg-profile-lloki, div.kg-profile-aloki {
