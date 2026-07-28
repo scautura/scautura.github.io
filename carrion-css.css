@@ -1,3 +1,7 @@
+blockquote {
+  border-radius: 8px;
+}
+
 .kg-hub {
   background-color: var(--color-surface);
   border-radius: 0.4em;
