@@ -2,26 +2,8 @@ blockquote {
   border-radius: 8px;
 }
 
-.kg-hub {
-  background-color: var(--color-surface);
-  border-radius: 0.4em;
-}
-
-.kg-hub a {
-  border: 0;
-  color: white;
-  padding: 0.2em 0.5em;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 1em;
-}
-
-.kg-hub a img {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-  margin: 0;
+h1 {
+  border-bottom: none;
 }
 
 div.icons img {
@@ -67,6 +49,37 @@ div.playlist img {
 details.gallery {
   width: 49%;
   display: inline-block;
+}
+
+.kg-underline::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: var(--gap) calc(-1 * var(--gap)) 0;
+  background: linear-gradient(to right, currentColor, transparent);
+}
+
+.kg-hub {
+  background-color: var(--color-surface);
+  border-radius: 0.4em;
+}
+
+.kg-hub a {
+  border: 0;
+  color: white;
+  padding: 0.2em 0.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+}
+
+.kg-hub a img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin: 0;
 }
 
 .kg-kristian, .kg-vygo{
@@ -127,8 +140,41 @@ div.kg-kristian, div.kg-asami, div.kg-steve, div.kg-remy, div.kg-vygo, div.kg-lo
   transform: scaleY(0)
 }
 
-h1 {
-  border-bottom: none;
+.kg-kristian summary::marker, .kg-asami summary::marker, .kg-steve summary::marker, .kg-remy summary::marker, .kg-vygo summary::marker {
+  content: "";
+}
+
+details[open].kg-kristian, details[open].kg-asami, details[open].kg-steve, details[open].kg-remi, details[open].kg-vygo {
+  background: var(--color-border);
+}
+
+.kg-tooltip {
+  position: absolute;
+  top: 0%;
+  left: -5000%;
+  opacity: 0;
+  min-width: 150%;
+  --background: alpha(from var(--color-bg) / 66%);
+  background: #1a1a1aaa;
+  backdrop-filter: blur(7px);
+  border-radius: 6px;
+  color: var(--cs-color-white);
+  padding: 6px 10px;
+  transform: translate(-50%, -95%);
+  transition: opacity 0.2s, transform 0.4s;
+  z-index: -1000;
+}
+
+.kg-tt-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.kg-tt-hover:hover + .kg-tooltip {
+  left: 50%;
+  opacity: 1;
+  transform: translate(-50%, -100%);
+  z-index: 100;
 }
 
 .hover-image {
