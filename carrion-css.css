@@ -6,6 +6,55 @@ blockquote {
   border-radius: 8px;
 }
 
+blockquote p.cite {
+  padding: 1em;
+  text-align: right;
+  display: block;
+  font-weight: bold;
+}
+
+blockquote p.quote:before {
+  content: open-quote;
+  font-size: 24pt;
+  text-align: center;
+  line-height: 42px;
+  color: #fff;
+  background: #a7a49f;
+  float: left;
+  position: relative;
+  border-radius: 25px;
+  margin-right: 0.5em;
+  vertical-align: -0.4em;
+  display: block;
+  height: 25px;
+  width: 25px;
+}
+
+blockquote p.quote:after {
+  content: close-quote;
+  font-size: 24pt;
+  text-align: center;
+  line-height: 42px;
+  color: #fff;
+  background: #a7a49f;
+  float: right;
+  position: relative;
+  border-radius: 25px;
+  margin-right: 1em;
+  vertical-align: -0.5em;
+  display: block;
+  height: 25px;
+  width: 25px;
+}
+
+blockquote p.quote:hover:after, blockquote p.quote:hover:before {
+  background-color: var(--cs-color-red);
+  transition: all 350ms;
+  -o-transition: all 350ms;
+  -moz-transition: all 350ms;
+  -webkit-transition: all 350ms;
+}
+
 h1 {
   border-bottom: none;
 }
