@@ -1,9 +1,11 @@
 :host {
   --gap: 8px;
+  --kg-color: --cs-color-red;
 }
 
 blockquote {
   border-radius: 8px;
+  border-color: var(--kg-color);
 }
 
 blockquote p.cite {
@@ -48,7 +50,7 @@ blockquote p.quote:after {
 }
 
 blockquote p.quote:hover:after, blockquote p.quote:hover:before {
-  background-color: var(--cs-color-red);
+  background-color: var(--kg-color);
   transition: all 350ms;
   -o-transition: all 350ms;
   -moz-transition: all 350ms;
