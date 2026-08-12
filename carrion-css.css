@@ -3,7 +3,7 @@
   --kg-color: --cs-color-red;
 }
 
-blockquote.kg-quote {
+blockquote {
   border-radius: 8px;
   border-color: var(--kg-color);
 }
