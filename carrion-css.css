@@ -161,13 +161,13 @@ details.gallery {
   background: var(--color-bg);
 }
 
-.kg-shulk {
+.kg-loki, .kg-shulk {
   border: 1px groove var(--cs-color-green);
   border-radius: 5px;
   background: var(--color-bg);
 }
 
-.kg-jenn {
+.kg-lloki, .kg-jenn {
   border: 1px groove var(--cs-color-dull-green);
   border-radius: 5px;
   background: var(--color-bg);
