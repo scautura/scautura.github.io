@@ -137,7 +137,7 @@ details.gallery {
   margin: 0;
 }
 
-.kg-kristian, {
+.kg-kristian {
   border: 1px groove var(--cs-color-dull-red);
   border-radius: 5px;
   background: var(--color-bg);
