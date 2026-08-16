@@ -176,8 +176,20 @@ details.kg-gallery {
   background: var(--color-bg);
 }
 
+.kg-kent {
+  border: 1px groove var(--cs-color-blue);
+  border-radius: 5px;
+  background: var(--color-bg);
+}
+
+.kg-supe {
+  border: 1px groove var(--cs-color-red);
+  border-radius: 5px;
+  background: var(--color-bg);
+}
+
 div.kg-kristian, div.kg-asami, div.kg-steve, div.kg-remy, div.kg-vygo, div.kg-loki, div.kg-profile-loki, div.kg-profile-lloki, div.kg-profile-aloki,
-div.kg-profile-shulk, div.kg-profile-jenn, div.kg-profile-jwsh {
+div.kg-profile-shulk, div.kg-profile-jenn, div.kg-profile-jwsh, div.kg-profile-kent, div.kg-profile-supe, div.kg-profile-cksm {
   height: auto;
   transition: 0.33s ease-out allow-discrete;
   transform-origin: left top;
@@ -188,7 +200,8 @@ div.kg-profile-shulk, div.kg-profile-jenn, div.kg-profile-jwsh {
 .cs-tabs:not(:has(.cs-tab-a:open)) div.kg-kristian, .cs-tabs:not(:has(.cs-tab-b:open)) div.kg-asami, .cs-tabs:not(:has(.cs-tab-c:open)) div.kg-steve,
 .cs-tabs:not(:has(.cs-tab-d:open)) div.kg-remy, .cs-tabs:not(:has(.cs-tab-e:open)) div.kg-vygo, .cs-tabs:has(.cs-tab:open) div.kg-loki,
 .cs-tabs:not(:has(.cs-tab-a:open)) div.kg-profile-loki, .cs-tabs:not(:has(.cs-tab-b:open)) div.kg-profile-lloki, .cs-tabs:has(.cs-tab:open) div.kg-profile-aloki,
-.cs-tabs:not(:has(.cs-tab-a:open)) div.kg-profile-shulk, .cs-tabs:not(:has(.cs-tab-b:open)) div.kg-profile-jenn, .cs-tabs:has(.cs-tab:open) div.kg-profile-jwsh {
+.cs-tabs:not(:has(.cs-tab-a:open)) div.kg-profile-shulk, .cs-tabs:not(:has(.cs-tab-b:open)) div.kg-profile-jenn, .cs-tabs:has(.cs-tab:open) div.kg-profile-jwsh,
+.cs-tabs:not(:has(.cs-tab-a:open)) div.kg-profile-kent, .cs-tabs:not(:has(.cs-tab-b:open)) div.kg-profile-supe, .cs-tabs:has(.cs-tab:open) div.kg-profile-cksm {
   height: 0;
   overflow: hidden;
   display: block;
