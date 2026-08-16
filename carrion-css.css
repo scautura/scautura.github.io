@@ -66,32 +66,16 @@ div.icons img {
   max-height: 200px;
 }
 
-div.gallery {
+div.kg-gallery, div.char-gallery {
   --columns: 4;
-}
-
-div.kg-gallery {
-  --columns: 4;
-}
-
-div.gallery img {
-  transition: all 0.5s ease;
 }
 
 div.kg-gallery img {
   transition: all 0.5s ease;
 }
 
-div.gallery img:hover {
-  transform: scale(3.0);
-}
-
 div.kg-gallery a:hover img {
   transform: scale(3.0);
-}
-
-div.char-gallery {
-  --columns: 4;
 }
 
 div.ideas {
@@ -113,7 +97,7 @@ div.playlist img {
   max-height: 100px;
 }
 
-details.gallery {
+details.kg-gallery {
   width: 49%;
   display: inline-block;
 }
