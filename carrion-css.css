@@ -70,11 +70,23 @@ div.gallery {
   --columns: 4;
 }
 
+div.kg-gallery {
+  --columns: 4;
+}
+
 div.gallery img {
   transition: all 0.5s ease;
 }
 
+div.kg-gallery img {
+  transition: all 0.5s ease;
+}
+
 div.gallery img:hover {
+  transform: scale(3.0);
+}
+
+div.kg-gallery a:hover img {
   transform: scale(3.0);
 }
 
