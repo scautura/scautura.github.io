@@ -146,12 +146,11 @@ details.kg-gallery {
   background: var(--color-bg);
 }
 
-.kg-vygo {
+.kg-val {
   border: 1px groove var(--cs-color-gray);
   border-radius: 5px;
   background: var(--color-bg);
 }
-
 
 .kg-asami {
   border: 1px groove var(--cs-color-red);
