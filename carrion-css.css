@@ -194,7 +194,7 @@ details.kg-gallery {
   background: var(--color-bg);
 }
 
-div.kg-kristian, div.kg-asami, div.kg-steve, div.kg-remy, div.kg-vygo, div.kg-val div.kg-loki, div.kg-profile-loki, div.kg-profile-lloki, div.kg-profile-aloki,
+div.kg-kristian, div.kg-asami, div.kg-steve, div.kg-remy, div.kg-vygo, div.kg-val, div.kg-loki, div.kg-profile-loki, div.kg-profile-lloki, div.kg-profile-aloki,
 div.kg-profile-shulk, div.kg-profile-jenn, div.kg-profile-jwsh, div.kg-profile-kent, div.kg-profile-supe, div.kg-profile-cksm {
   height: auto;
   transition: 0.33s ease-out allow-discrete;
