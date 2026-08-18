@@ -6,6 +6,7 @@
 blockquote {
   border-radius: 8px;
   border-color: var(--kg-color);
+  border-left-color: var(--kg-color);
 }
 
 blockquote p.cite {
@@ -145,6 +146,12 @@ details.kg-gallery {
   background: var(--color-bg);
 }
 
+.kg-vygo {
+  border: 1px groove var(--cs-color-gray);
+  border-radius: 5px;
+  background: var(--color-bg);
+}
+
 
 .kg-asami {
   border: 1px groove var(--cs-color-red);
@@ -188,7 +195,7 @@ details.kg-gallery {
   background: var(--color-bg);
 }
 
-div.kg-kristian, div.kg-asami, div.kg-steve, div.kg-remy, div.kg-vygo, div.kg-loki, div.kg-profile-loki, div.kg-profile-lloki, div.kg-profile-aloki,
+div.kg-kristian, div.kg-asami, div.kg-steve, div.kg-remy, div.kg-vygo, div.kg-val div.kg-loki, div.kg-profile-loki, div.kg-profile-lloki, div.kg-profile-aloki,
 div.kg-profile-shulk, div.kg-profile-jenn, div.kg-profile-jwsh, div.kg-profile-kent, div.kg-profile-supe, div.kg-profile-cksm {
   height: auto;
   transition: 0.33s ease-out allow-discrete;
@@ -198,7 +205,8 @@ div.kg-profile-shulk, div.kg-profile-jenn, div.kg-profile-jwsh, div.kg-profile-k
 }
 
 .cs-tabs:not(:has(.cs-tab-a:open)) div.kg-kristian, .cs-tabs:not(:has(.cs-tab-b:open)) div.kg-asami, .cs-tabs:not(:has(.cs-tab-c:open)) div.kg-steve,
-.cs-tabs:not(:has(.cs-tab-d:open)) div.kg-remy, .cs-tabs:not(:has(.cs-tab-e:open)) div.kg-vygo, .cs-tabs:has(.cs-tab:open) div.kg-loki,
+.cs-tabs:not(:has(.cs-tab-d:open)) div.kg-remy, .cs-tabs:not(:has(.cs-tab-e:open)) div.kg-vygo, .cs-tabs:not(:has(.cs-tab-f:open)) div.kg-val,
+.cs-tabs:has(.cs-tab:open) div.kg-loki,
 .cs-tabs:not(:has(.cs-tab-a:open)) div.kg-profile-loki, .cs-tabs:not(:has(.cs-tab-b:open)) div.kg-profile-lloki, .cs-tabs:has(.cs-tab:open) div.kg-profile-aloki,
 .cs-tabs:not(:has(.cs-tab-a:open)) div.kg-profile-shulk, .cs-tabs:not(:has(.cs-tab-b:open)) div.kg-profile-jenn, .cs-tabs:has(.cs-tab:open) div.kg-profile-jwsh,
 .cs-tabs:not(:has(.cs-tab-a:open)) div.kg-profile-kent, .cs-tabs:not(:has(.cs-tab-b:open)) div.kg-profile-supe, .cs-tabs:has(.cs-tab:open) div.kg-profile-cksm {
@@ -213,11 +221,11 @@ div.kg-profile-shulk, div.kg-profile-jenn, div.kg-profile-jwsh, div.kg-profile-k
   transform: scaleY(0)
 }
 
-.kg-kristian summary::marker, .kg-asami summary::marker, .kg-steve summary::marker, .kg-remy summary::marker, .kg-vygo summary::marker {
+.kg-kristian summary::marker, .kg-asami summary::marker, .kg-steve summary::marker, .kg-remy summary::marker, .kg-vygo summary::marker .kg-val summary::marker {
   content: "";
 }
 
-details[open].kg-kristian, details[open].kg-asami, details[open].kg-steve, details[open].kg-remi, details[open].kg-vygo {
+details[open].kg-kristian, details[open].kg-asami, details[open].kg-steve, details[open].kg-remi, details[open].kg-vygo, details[open].kg-val {
   background: var(--color-border);
 }
 
