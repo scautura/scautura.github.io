@@ -194,6 +194,12 @@ details.kg-gallery {
   background: var(--color-bg);
 }
 
+.kg-dropdown {
+  border: 1px groove var(--cs-color-white);
+  border-radius: 5px;
+  background: var(--color-bg);
+}
+
 div.kg-kristian, div.kg-asami, div.kg-steve, div.kg-remy, div.kg-vygo, div.kg-val, div.kg-loki, div.kg-profile-loki, div.kg-profile-lloki, div.kg-profile-aloki,
 div.kg-profile-shulk, div.kg-profile-jenn, div.kg-profile-jwsh, div.kg-profile-kent, div.kg-profile-supe, div.kg-profile-cksm {
   height: auto;
@@ -220,11 +226,11 @@ div.kg-profile-shulk, div.kg-profile-jenn, div.kg-profile-jwsh, div.kg-profile-k
   transform: scaleY(0)
 }
 
-.kg-kristian summary::marker, .kg-asami summary::marker, .kg-steve summary::marker, .kg-remy summary::marker, .kg-vygo summary::marker .kg-val summary::marker {
+.kg-kristian summary::marker, .kg-asami summary::marker, .kg-steve summary::marker, .kg-remy summary::marker, .kg-vygo summary::marker, .kg-val summary::marker, .kg-dropdown summary::marker {
   content: "";
 }
 
-details[open].kg-kristian, details[open].kg-asami, details[open].kg-steve, details[open].kg-remi, details[open].kg-vygo, details[open].kg-val {
+details[open].kg-kristian, details[open].kg-asami, details[open].kg-steve, details[open].kg-remi, details[open].kg-vygo, details[open].kg-val, details[open].kg-dropdown {
   background: var(--color-border);
 }
 
@@ -255,6 +261,35 @@ details[open].kg-kristian, details[open].kg-asami, details[open].kg-steve, detai
   opacity: 1;
   transform: translate(-50%, -100%);
   z-index: 100;
+}
+
+.kg-details dl {
+  display: flex;
+  flex-flow: row wrap;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  background-color: #333;
+  color: #fff;
+}
+
+.kg-details dt {
+  flex-basis: 33%;
+  padding: 2px 4px;
+  text-align: right;
+  text-align-last: right;
+  font-weight: bold;
+  border-right: 1px solid #ffaa9f;
+  border-bottom: 1px solid #ddd;
+}
+
+.kg-details dd {
+  flex-basis: 66%;
+  flex-grow: 1;
+  margin: 0;
+  margin-left: 2px;
+  padding: 2px 4px;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ffaa9f;
 }
 
 .hover-image {
