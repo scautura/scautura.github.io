@@ -226,10 +226,6 @@ div.kg-profile-shulk, div.kg-profile-jenn, div.kg-profile-jwsh, div.kg-profile-k
   transform: scaleY(0)
 }
 
-.kg-kristian summary::marker, .kg-asami summary::marker, .kg-steve summary::marker, .kg-remy summary::marker, .kg-vygo summary::marker, .kg-val summary::marker, .kg-dropdown summary::marker {
-  content: "";
-}
-
 details[open].kg-kristian, details[open].kg-asami, details[open].kg-steve, details[open].kg-remi, details[open].kg-vygo, details[open].kg-val, details[open].kg-dropdown {
   background: var(--color-border);
 }
@@ -292,13 +288,23 @@ details[open].kg-kristian, details[open].kg-asami, details[open].kg-steve, detai
   border-left: 1px solid #ffaa9f;
 }
 
+.kg-glitch {
+  animation: kg-glitch-anim 8s steps(1) infinite;
+}
+
+@keyframes kg-glitch-anim {
+  0%, 90%, 100% { clip-path: none; transform: none; }
+  92.5% { clip-path: inset(20% 0 60% 0); transform: translateX(-4px); }
+  95% { clip-path: inset(60% 0 10% 0); transform: translateX(4px); }
+  97.5% { clip-path: inset(40% 0 40% 0); transform: translateX(-2px); }
+}
+
 .hover-image {
   align-self: center;
   justify-self: stretch;
   flex: 1;
   position: relative;
   min-height: 500px;
-  
 
   & img {
     width: 100%;
