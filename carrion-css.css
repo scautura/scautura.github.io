@@ -1,6 +1,6 @@
 :host {
   --gap: 8px;
-  --kg-color: --cs-color-red;
+  --kg-color: var(--cs-color-red);
 }
 
 blockquote {
