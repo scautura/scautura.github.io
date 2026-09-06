@@ -9,14 +9,14 @@ blockquote {
   border-left-color: var(--kg-color);
 }
 
-blockquote p.cite {
+blockquote p.cite, blockquote p.kg-cite {
   padding: 1em;
   text-align: right;
   display: block;
   font-weight: bold;
 }
 
-blockquote p.quote:before {
+blockquote p.quote:before, blockquote p.kg-quote:before {
   content: open-quote;
   font-size: 24pt;
   text-align: center;
@@ -33,7 +33,7 @@ blockquote p.quote:before {
   width: 25px;
 }
 
-blockquote p.quote:after {
+blockquote p.quote:after, blockquote p.kg-quote:after {
   content: close-quote;
   font-size: 24pt;
   text-align: center;
@@ -50,7 +50,7 @@ blockquote p.quote:after {
   width: 25px;
 }
 
-blockquote p.quote:hover:after, blockquote p.quote:hover:before {
+blockquote p.quote:hover:after, blockquote p.quote:hover:before, blockquote p.kg-quote:hover:after, blockquote p.kg-quote:hover:before {
   background-color: var(--kg-color);
   transition: all 350ms;
   -o-transition: all 350ms;
@@ -62,7 +62,7 @@ h1 {
   border-bottom: none;
 }
 
-div.icons img {
+div.icons img, div.kg-icons img {
   max-width: 200px;
   max-height: 200px;
 }
@@ -77,14 +77,15 @@ div.kg-gallery img {
 
 div.kg-gallery a:hover img {
   transform: scale(3.0);
+  transform-origin: right bottom;
 }
 
-div.ideas {
+div.ideas, div.kg-ideas {
   --flex: 1 1 50%;
   flex-wrap: wrap;
 }
 
-div.ideas > * {
+div.ideas > *, div.kg-ideas > * {
   width: 48%;
   border: 1px groove var(--color-border);
   border-radius: 5px;
@@ -93,7 +94,7 @@ div.ideas > * {
   margin: 5px;
 }
 
-div.playlist img {
+div.playlist img, div.kg-playlist img {
   max-width: 100px;
   max-height: 100px;
 }
@@ -221,7 +222,7 @@ div.kg-profile-shulk, div.kg-profile-jenn, div.kg-profile-jwsh, div.kg-profile-k
   border: 0px none;
   padding: 0;
   margin: 0;
-  transition: 0.33s ease-in allow-discrete;
+  transition: 0.33s 0.33s ease-in allow-discrete;
   transform-origin: left top;
   transform: scaleY(0)
 }
@@ -325,7 +326,7 @@ details[open].kg-kristian, details[open].kg-asami, details[open].kg-steve, detai
   }
 }
 
-.hover-img {
+.hover-img, .kg-hover-img {
   display: flex;
   position: relative;
 
@@ -381,7 +382,7 @@ details[open].kg-kristian, details[open].kg-asami, details[open].kg-steve, detai
   }
 }
 
-.flow-gallery {
+.flow-gallery, .kg-flow-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: max-content;
