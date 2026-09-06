@@ -204,7 +204,7 @@ details.kg-gallery {
 div.kg-kristian, div.kg-asami, div.kg-steve, div.kg-remy, div.kg-vygo, div.kg-val, div.kg-loki, div.kg-profile-loki, div.kg-profile-lloki, div.kg-profile-aloki,
 div.kg-profile-shulk, div.kg-profile-jenn, div.kg-profile-jwsh, div.kg-profile-kent, div.kg-profile-supe, div.kg-profile-cksm {
   height: auto;
-  transition: 0.33s ease-out allow-discrete;
+  transition: 0.33s 0.33s ease-out allow-discrete;
   transform-origin: left top;
   transform: scaleY(1);
   padding: 10px;
@@ -222,7 +222,7 @@ div.kg-profile-shulk, div.kg-profile-jenn, div.kg-profile-jwsh, div.kg-profile-k
   border: 0px none;
   padding: 0;
   margin: 0;
-  transition: 0.33s 0.33s ease-in allow-discrete;
+  transition: 0.33s ease-in allow-discrete;
   transform-origin: left top;
   transform: scaleY(0)
 }
