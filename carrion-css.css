@@ -238,7 +238,8 @@ div.kg-profile-jwsh, div.kg-profile-kent, div.kg-profile-supe, div.kg-profile-ck
   transform: scaleY(0)
 }
 
-details[open].kg-kristian, details[open].kg-asami, details[open].kg-steve, details[open].kg-remi, details[open].kg-vygo, details[open].kg-val, details[open].kg-roy, details[open].kg-dropdown {
+details[open].kg-kristian, details[open].kg-asami, details[open].kg-steve, details[open].kg-remi, details[open].kg-vygo, details[open].kg-val, details[open].kg-roy,
+details[open].kg-kent, details[open].kg-supe, details[open].kg-dropdown {
   background: var(--color-border);
 }
 
