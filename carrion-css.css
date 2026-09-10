@@ -9,14 +9,14 @@ blockquote {
   border-left-color: var(--kg-color);
 }
 
-blockquote p.cite, blockquote p.kg-cite {
+blockquote p.kg-cite {
   padding: 1em;
   text-align: right;
   display: block;
   font-weight: bold;
 }
 
-blockquote p.quote:before, blockquote p.kg-quote:before {
+blockquote p.kg-quote:before {
   content: open-quote;
   font-size: 24pt;
   text-align: center;
@@ -33,7 +33,7 @@ blockquote p.quote:before, blockquote p.kg-quote:before {
   width: 25px;
 }
 
-blockquote p.quote:after, blockquote p.kg-quote:after {
+blockquote p.kg-quote:after {
   content: close-quote;
   font-size: 24pt;
   text-align: center;
@@ -50,7 +50,7 @@ blockquote p.quote:after, blockquote p.kg-quote:after {
   width: 25px;
 }
 
-blockquote p.quote:hover:after, blockquote p.quote:hover:before, blockquote p.kg-quote:hover:after, blockquote p.kg-quote:hover:before {
+blockquote p.kg-quote:hover:after, blockquote p.kg-quote:hover:before {
   background-color: var(--kg-color);
   transition: all 350ms;
   -o-transition: all 350ms;
@@ -77,7 +77,7 @@ div.kg-gallery img {
 
 div.kg-gallery a:hover img {
   transform: scale(3.0);
-  transform-origin: right bottom;
+  transform-origin: bottom center;
 }
 
 div.ideas, div.kg-ideas {
@@ -102,6 +102,10 @@ div.playlist img, div.kg-playlist img {
 details.kg-gallery {
   width: 49%;
   display: inline-block;
+}
+
+.kg-indent {
+  text-indent: 2em;
 }
 
 .kg-underline::after {
@@ -171,6 +175,12 @@ details.kg-gallery {
   background: var(--color-bg);
 }
 
+.kg-roy {
+  border: 1px groove var(--cs-color-teal);
+  border-radius: 5px;
+  background: var(--color-bg);
+}
+
 .kg-loki, .kg-shulk {
   border: 1px groove var(--cs-color-green);
   border-radius: 5px;
@@ -201,8 +211,9 @@ details.kg-gallery {
   background: var(--color-bg);
 }
 
-div.kg-kristian, div.kg-asami, div.kg-steve, div.kg-remy, div.kg-vygo, div.kg-val, div.kg-loki, div.kg-profile-loki, div.kg-profile-lloki, div.kg-profile-aloki,
-div.kg-profile-shulk, div.kg-profile-jenn, div.kg-profile-jwsh, div.kg-profile-kent, div.kg-profile-supe, div.kg-profile-cksm {
+div.kg-kristian, div.kg-asami, div.kg-steve, div.kg-remy, div.kg-vygo, div.kg-val, div.kg-loki, div.kg-roy,
+div.kg-profile-loki, div.kg-profile-lloki, div.kg-profile-aloki, div.kg-profile-shulk, div.kg-profile-jenn,
+div.kg-profile-jwsh, div.kg-profile-kent, div.kg-profile-supe, div.kg-profile-cksm {
   height: auto;
   transition: 0.33s 0.33s ease-out allow-discrete;
   transform-origin: left top;
@@ -212,7 +223,7 @@ div.kg-profile-shulk, div.kg-profile-jenn, div.kg-profile-jwsh, div.kg-profile-k
 
 .cs-tabs:not(:has(.cs-tab-a:open)) div.kg-kristian, .cs-tabs:not(:has(.cs-tab-b:open)) div.kg-asami, .cs-tabs:not(:has(.cs-tab-c:open)) div.kg-steve,
 .cs-tabs:not(:has(.cs-tab-d:open)) div.kg-remy, .cs-tabs:not(:has(.cs-tab-e:open)) div.kg-vygo, .cs-tabs:not(:has(.cs-tab-f:open)) div.kg-val,
-.cs-tabs:has(.cs-tab:open) div.kg-loki,
+.cs-tabs:not(:has(.cs-tab-g:open)) div.kg-roy, .cs-tabs:has(.cs-tab:open) div.kg-loki,
 .cs-tabs:not(:has(.cs-tab-a:open)) div.kg-profile-loki, .cs-tabs:not(:has(.cs-tab-b:open)) div.kg-profile-lloki, .cs-tabs:has(.cs-tab:open) div.kg-profile-aloki,
 .cs-tabs:not(:has(.cs-tab-a:open)) div.kg-profile-shulk, .cs-tabs:not(:has(.cs-tab-b:open)) div.kg-profile-jenn, .cs-tabs:has(.cs-tab:open) div.kg-profile-jwsh,
 .cs-tabs:not(:has(.cs-tab-a:open)) div.kg-profile-kent, .cs-tabs:not(:has(.cs-tab-b:open)) div.kg-profile-supe, .cs-tabs:has(.cs-tab:open) div.kg-profile-cksm {
@@ -227,7 +238,7 @@ div.kg-profile-shulk, div.kg-profile-jenn, div.kg-profile-jwsh, div.kg-profile-k
   transform: scaleY(0)
 }
 
-details[open].kg-kristian, details[open].kg-asami, details[open].kg-steve, details[open].kg-remi, details[open].kg-vygo, details[open].kg-val, details[open].kg-dropdown {
+details[open].kg-kristian, details[open].kg-asami, details[open].kg-steve, details[open].kg-remi, details[open].kg-vygo, details[open].kg-val, details[open].kg-roy, details[open].kg-dropdown {
   background: var(--color-border);
 }
 
