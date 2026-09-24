@@ -438,3 +438,18 @@ details[open].kg-kent, details[open].kg-supe, details[open].kg-dropdown {
     margin: 0;
   }
 }
+
+.kg-romance {
+  width: 100%;
+  padding: 10px;
+}
+
+.kg-romance-left, .kg-romance-right {
+  min-width: 20%;
+  padding 10px;
+}
+
+.kg-romance-middle {
+  max-width: 75%;
+  padding: 10px;
+}
