@@ -74,6 +74,7 @@ div.icons img, div.kg-icons img {
 .cs-gallery img.kg-tooltip {
   width: calc(var(--thumb-size) * 3);
   max-width: calc(var(--thumb-size) * 3);
+  max-height: calc(var(--thumb-size) * 3);
   object-fit: contain;
   aspect-ratio: auto;
   pointer-events: none;
