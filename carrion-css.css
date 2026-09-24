@@ -71,6 +71,15 @@ div.icons img, div.kg-icons img {
   max-height: 200px;
 }
 
+.cs-gallery img.kg-tooltip {
+  width: calc(var(--thumb-size) * 3);
+  max-width: calc(var(--thumb-size) * 3);
+  object-fit: contain;
+  aspect-ratio: auto;
+  pointer-events: none;
+  top: 100%;
+}
+
 div.kg-gallery, div.char-gallery {
   --columns: 4;
 }
@@ -316,7 +325,7 @@ details[open].kg-kent, details[open].kg-supe, details[open].kg-dropdown {
   97.5% { clip-path: inset(40% 0 40% 0); transform: translateX(-2px); }
 }
 
-.hover-image {
+.hover-image, .kg-hover-image {
   align-self: center;
   justify-self: stretch;
   flex: 1;
