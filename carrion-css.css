@@ -71,6 +71,12 @@ div.icons img, div.kg-icons img {
   max-height: 200px;
 }
 
+.cs-tabs details, .cs-tabs div.cs-gallery {
+  background-color: var(--color-bg);
+  margin-bottom: 0;
+  min-width: 20%;
+}
+
 .cs-gallery img.kg-tooltip {
   width: auto;
   max-width: calc(var(--thumb-size) * 4);
