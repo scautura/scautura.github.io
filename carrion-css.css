@@ -74,6 +74,24 @@ blockquote p.kg-quote:hover:after, blockquote p.kg-quote:hover:before {
   -webkit-transition: all 350ms;
 }
 
+/* Unordered lists, custom bullets */
+
+ul.kg-list-tick {
+  list-style-type: '✔️  ';
+}
+
+ul.kg-list-cross {
+  list-style-type: '❌  ';
+}
+
+ul.kg-list-question {
+  list-style-type: '❔  ';
+}
+
+ul.kg-list-bang {
+  list-style-type: '⁉️  ';
+}
+
 /* Max size for icons/thumbnails */
 
 div.icons img, div.kg-icons img {
