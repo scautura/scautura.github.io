@@ -437,10 +437,6 @@ details[open].kg-kent, details[open].kg-supe, details[open].kg-dropdown {
     position: absolute;
     inset: 0;
     z-index: 99;
-
-    &:hover {
-      /* background: rgba(255 255 255 / 0.5); */
-    }
   }
 
   & .hover-left {
@@ -506,7 +502,7 @@ details[open].kg-kent, details[open].kg-supe, details[open].kg-dropdown {
 
 .kg-romance-left, .kg-romance-right {
   min-width: 20%;
-  padding 10px;
+  padding: 10px;
 }
 
 .kg-romance-middle {
