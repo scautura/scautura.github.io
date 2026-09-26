@@ -99,7 +99,7 @@ div.icons img, div.kg-icons img {
   max-height: 200px;
 }
 
-.cs-tabs details, .cs-tabs div.cs-gallery {
+.cs-tabs details, .cs-tabs div.cs-gallery, .cs-tabs .kg-background {
   background-color: var(--color-bg);
   margin-bottom: 0;
   min-width: 10%;
@@ -115,23 +115,13 @@ div.icons img, div.kg-icons img {
   aspect-ratio: auto;
   pointer-events: none;
   top: 100%;
+  border-radius: var(--image-radius);
 }
 
 /* Change gallery from 3 to 4 columns */
 
 div.kg-gallery, div.char-gallery {
   --columns: 4;
-}
-
-/* Hover over for larger images. Being phased out for the above solution. */
-
-div.kg-gallery img {
-  transition: all 0.5s ease;
-}
-
-div.kg-gallery a:hover img {
-  transform: scale(3.0);
-  transform-origin: bottom;
 }
 
 /* Ideas boxes */
