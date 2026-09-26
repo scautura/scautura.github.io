@@ -109,13 +109,18 @@ div.icons img, div.kg-icons img {
 
 .cs-gallery img.kg-tooltip {
   width: auto;
-  max-width: calc(var(--thumb-size) * 4);
-  max-height: calc(var(--thumb-size) * 4);
+  max-width: calc(var(--thumb-size) * 3);
+  max-height: calc(var(--thumb-size) * 3);
   object-fit: contain;
   aspect-ratio: auto;
   pointer-events: none;
   top: 100%;
   border-radius: var(--image-radius);
+}
+
+.cs-bubble-gallery img.kg-tooltip {
+  max-width: calc(var(--thumb-size) * 6);
+  max-height: calc(var(--thumb-size) * 6);
 }
 
 /* Change gallery from 3 to 4 columns */
