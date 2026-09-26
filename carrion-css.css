@@ -12,7 +12,7 @@ h1 {
 /* Remove hover on anchor/link for tooltipped images with anchors/links */
 
 a.kg-tt-hover:hover {
-  border-bottom-color: transparent;
+  border-bottom: unset;
 }
 
 /* General blockquote styling */
@@ -533,9 +533,9 @@ details[open].kg-kent, details[open].kg-supe, details[open].kg-dropdown {
 }
 
 .kg-wip {
-  background: var(--cs-color-yellow);
+  background: linear-gradient(115deg, var(--cs-color-yellow), var(--cs-color-orange), var(--cs-color-dull-yellow));
   & .kg-flash {
-    background: var(--cs-color-red);
+    background: linear-gradient(120deg, var(--cs-color-pink), var(--cs-color-dull-red), var(--cs-color-red));
   }
   
   & .kg-flash:before {
@@ -545,9 +545,9 @@ details[open].kg-kent, details[open].kg-supe, details[open].kg-dropdown {
 }
 
 .kg-new {
-  background: var(--cs-color-teal);
+  background: linear-gradient(115deg, var(--cs-color-dull-teal), var(--cs-color-teal));
   & .kg-flash {
-    background: var(--cs-color-blue);
+    background: linear-gradient(100deg, var(--cs-color-blue), var(--cs-color-dull-blue));
   }
 
   & .kg-flash:before {
