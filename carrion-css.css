@@ -565,8 +565,6 @@ details[open].kg-kent, details[open].kg-supe, details[open].kg-dropdown {
   border: 1px solid;
   border-image: linear-gradient(135deg, #dd2e2e, #b80000);
   border-radius: 4px;
-  color: #c5e8b7;
   font-size: 0.9rem;
   font-weight: 500;
-  flex-shrink: 0;
 }
