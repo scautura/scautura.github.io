@@ -555,3 +555,17 @@ details[open].kg-kent, details[open].kg-supe, details[open].kg-dropdown {
     content: "New";
   }
 }
+
+/* Callouts or buttons to draw attention */
+
+.kg-callout {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  background: linear-gradient(135deg, #b80000, #ff5e5e);
+  border: 1px solid linear-gradient(135deg, #ff5e5e, #b80000);
+  border-radius: 4px;
+  color: #c5e8b7;
+  font-size: 0.9rem;
+  font-weight: 500;
+  flex-shrink: 0;
+}
