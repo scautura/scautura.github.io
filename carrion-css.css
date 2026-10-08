@@ -116,8 +116,8 @@ div.icons img, div.kg-icons img {
 
 .cs-gallery img.kg-tooltip {
   width: auto;
-  max-width: calc(var(--thumb-size) * --var(--kg-scale));
-  max-height: calc(var(--thumb-size) * --var(--kg-scale));
+  max-width: calc(var(--thumb-size) * var(--kg-scale));
+  max-height: calc(var(--thumb-size) * var(--kg-scale));
   object-fit: contain;
   aspect-ratio: auto;
   pointer-events: none;
@@ -126,8 +126,8 @@ div.icons img, div.kg-icons img {
 }
 
 .cs-bubble-gallery img.kg-tooltip {
-  max-width: calc(var(--thumb-size) * --var(--kg-scale) * 2);
-  max-height: calc(var(--thumb-size) * --var(--kg-scale) * 2);
+  max-width: calc(var(--thumb-size) * var(--kg-scale) * 2);
+  max-height: calc(var(--thumb-size) * var(--kg-scale) * 2);
 }
 
 /* Change gallery from 3 to 4 columns */
