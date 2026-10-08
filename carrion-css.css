@@ -1,6 +1,13 @@
 :host {
   --gap: 8px;
   --kg-color: var(--cs-color-red);
+  --kg-scale: 3;
+}
+
+@media screen and (width >= 1024px) {
+  :host {
+    --kg-scale: 4;
+  }
 }
 
 /* Remove bottom border from Heading 1 */
@@ -109,8 +116,8 @@ div.icons img, div.kg-icons img {
 
 .cs-gallery img.kg-tooltip {
   width: auto;
-  max-width: calc(var(--thumb-size) * 3);
-  max-height: calc(var(--thumb-size) * 3);
+  max-width: calc(var(--thumb-size) * --var(--kg-scale));
+  max-height: calc(var(--thumb-size) * --var(--kg-scale));
   object-fit: contain;
   aspect-ratio: auto;
   pointer-events: none;
@@ -119,8 +126,8 @@ div.icons img, div.kg-icons img {
 }
 
 .cs-bubble-gallery img.kg-tooltip {
-  max-width: calc(var(--thumb-size) * 6);
-  max-height: calc(var(--thumb-size) * 6);
+  max-width: calc(var(--thumb-size) * --var(--kg-scale) * 2);
+  max-height: calc(var(--thumb-size) * --var(--kg-scale) * 2);
 }
 
 /* Change gallery from 3 to 4 columns */
