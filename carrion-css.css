@@ -106,7 +106,7 @@ div.icons img, div.kg-icons img {
   max-height: 200px;
 }
 
-.cs-tabs details, .cs-tabs div.cs-gallery, .cs-tabs .kg-background {
+.cs-tabs details, .cs-tabs > div.cs-gallery, .cs-tabs .kg-background {
   background-color: var(--color-bg);
   margin-bottom: 0;
   min-width: 10%;
