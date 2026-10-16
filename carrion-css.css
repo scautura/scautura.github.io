@@ -530,6 +530,7 @@ details[open].kg-kent, details[open].kg-supe, details[open].kg-dropdown {
   display: flex;
   align-items: center;
   justify-content: center;
+  pointer-events: none;
 
   & .kg-flash {
     position: relative;
