@@ -18,7 +18,7 @@ h1 {
 
 /* Remove hover on anchor/link for tooltipped images with anchors/links */
 
-a.kg-tt-hover:hover {
+a.kg-tt-hover, a.kg-tt-hover:hover {
   border-bottom: unset;
 }
 
