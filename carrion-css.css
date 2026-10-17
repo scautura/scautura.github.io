@@ -575,4 +575,7 @@ details[open].kg-kent, details[open].kg-supe, details[open].kg-dropdown {
   border-radius: 4px;
   font-size: 0.9rem;
   font-weight: 500;
+  & p {
+    filter: drop-shadow(1px 1px black);
+  }
 }
