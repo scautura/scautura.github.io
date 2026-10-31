@@ -215,31 +215,31 @@ details.kg-gallery {
 }
 
 .kg-hub .kg-hub-kristian {
-  border: 2px groove --var(--kg-color-kristian);
+  border: 2px groove var(--kg-color-kristian);
 }
 
 .kg-hub .kg-hub-asami {
-  border: 2px groove --var(--kg-color-asami);
+  border: 2px groove var(--kg-color-asami);
 }
 
 .kg-hub .kg-hub-steve {
-  border: 2px groove --var(--kg-color-steve);
+  border: 2px groove var(--kg-color-steve);
 }
 
 .kg-hub .kg-hub-remy {
-  border: 2px groove --var(--kg-color-remy);
+  border: 2px groove var(--kg-color-remy);
 }
 
 .kg-hub .kg-hub-vygo {
-  border: 2px groove --var(--kg-color-vygo);
+  border: 2px groove var(--kg-color-vygo);
 }
 
 .kg-hub .kg-hub-val {
-  border: 2px groove --var(--kg-color-val);
+  border: 2px groove var(--kg-color-val);
 }
 
 .kg-hub .kg-hub-roy {
-  border: 2px groove --var(--kg-color-roy);
+  border: 2px groove var(--kg-color-roy);
 }
 
 /* Profile tabs */
