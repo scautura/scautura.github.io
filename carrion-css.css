@@ -2,6 +2,13 @@
   --gap: 8px;
   --kg-color: var(--cs-color-red);
   --kg-scale: 3;
+  --kg-color-kristian: var(--cs-color-dull-red);
+  --kg-color-asami: var(--cs-color-red);
+  --kg-color-steve: var(--cs-color-dull-blue);
+  --kg-color-remy: var(--cs-color-pink);
+  --kg-color-vygo: var(--cs-color-purple);
+  --kg-color-val: var(--cs-color-gray);
+  --kg-color-roy: var(--cs-color-teal);
 }
 
 @media screen and (width >= 1024px) {
@@ -188,23 +195,51 @@ details.kg-gallery {
 .kg-hub {
   background-color: var(--color-surface);
   border-radius: 0.4em;
-}
 
-.kg-hub a {
-  border: 0;
-  color: white;
-  padding: 0.2em 0.5em;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 1em;
-}
+  & a {
+    border: 0;
+    color: white;
+    padding: 0.2em 0.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+  }
 
-.kg-hub a img {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-  margin: 0;
+  & a img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin: 0;
+  }
+
+  & .kg-hub-kristian {
+    border: 2px groove --var(--kg-color-kristian);
+  }
+
+  & .kg-hub-asami {
+    border: 2px groove --var(--kg-color-asami);
+  }
+
+  & .kg-hub-steve {
+    border: 2px groove --var(--kg-color-steve);
+  }
+
+  & .kg-hub-remy {
+    border: 2px groove --var(--kg-color-remy);
+  }
+
+  & .kg-hub-vygo {
+    border: 2px groove --var(--kg-color-vygo);
+  }
+
+  & .kg-hub-val {
+    border: 2px groove --var(--kg-color-val);
+  }
+
+  & .kg-hub-roy {
+    border: 2px groove --var(--kg-color-roy);
+  }
 }
 
 /* Profile tabs */
