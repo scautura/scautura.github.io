@@ -9,6 +9,7 @@
   --kg-color-vygo: var(--cs-color-purple);
   --kg-color-val: var(--cs-color-gray);
   --kg-color-roy: var(--cs-color-teal);
+  --kg-hub-offset: 65px;
 }
 
 @media screen and (width >= 1024px) {
@@ -240,6 +241,10 @@ details.kg-gallery {
 
 .kg-hub.kg-hub-roy {
   border: 2px groove var(--kg-color-roy);
+}
+
+.kg-hub.kg-hub-2 {
+  top: calc(var(--cs-bean-offset-top) + var(--kg-hub-offset));
 }
 
 /* Profile tabs */
