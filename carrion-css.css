@@ -243,7 +243,7 @@ details.kg-gallery {
   border: 2px groove var(--kg-color-roy);
 }
 
-.kg-hub.kg-hub-2 {
+.kg-hub-2 {
   top: calc(var(--cs-bean-offset-top) + var(--kg-hub-offset));
 }
 
