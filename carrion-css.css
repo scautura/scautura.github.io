@@ -1,8 +1,43 @@
-@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap");
+/* Copy this line into the top of your inline style; it isn't imported correctly within an external stylesheet */
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Berkshire+Swash&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&family=Eagle+Lake&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Pirata+One&display=swap');
 
 .kg-font-bsc {
   font-family: "Bodoni Moda SC", serif;
 }
+
+.kg-font-ahl {
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.kg-font-ahln {
+  font-family: 'Atkinson Hyperlegible Next', sans-serif;
+}
+
+.kg-font-el {
+  font-family: 'Eagle Lake', handwriting;
+}
+
+.kg-font-orb {
+  font-family: "Orbitron", sans-serif;
+}
+
+.kg-font-cin {
+  font-family: "Cinzel", serif;
+}
+
+.kg-font-osw {
+  font-family: "Oswald", sans-serif;
+}
+
+.kg-font-bs {
+  font-family: 'Berkshire Swash', handwriting;
+}
+
+.font-pone {
+  font-family: 'Pirata One', display;
+}
+
 
 :host {
   --gap: 8px;
