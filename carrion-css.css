@@ -44,6 +44,10 @@
   font-family: "Libre Bodoni", serif;
 }
 
+.kg-font-bang {
+  font-family: "Bangers", system-ui;
+}
+
 .kg-font-64c {
   font-family: "Sixtyfour Convergence", sans-serif;
   font-variation-settings:
