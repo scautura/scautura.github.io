@@ -38,6 +38,11 @@
   font-family: 'Pirata One', display;
 }
 
+.kg-font-rg {
+  font-family: "Rubik Glitch", system-ui;
+}
+
+/* Default variables */
 
 :host {
   --gap: 8px;
