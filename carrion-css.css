@@ -476,9 +476,9 @@ details[open].kg-kent, details[open].kg-supe, details[open].kg-dropdown {
 
 @keyframes kg-glitch-anim {
   0%, 90%, 100% { clip-path: none; transform: none; }
-  92.5% { clip-path: inset(random(10%, 40%, 1) 0 random(10%, 40%, 1) 0); transform: translateX(random(-4px, 4px, 1)); }
-  95% { clip-path: inset(random(10%, 40%, 1) 0 random(10%, 40%, 1) 0); transform: translateX(random(-4px, 4px, 1)); }
-  97.5% { clip-path: inset(random(10%, 40%, 1) 0 random(10%, 40%, 1) 0); transform: translateX(random(-4px 4px, 1)); }
+  92.5% { clip-path: inset(random(10%, 40%, 1%) 0 random(10%, 40%, 1%) 0); transform: translateX(random(-4px, 4px, 1px)); }
+  95% { clip-path: inset(random(10%, 40%, 1%) 0 random(10%, 40%, 1%) 0); transform: translateX(random(-4px, 4px, 1px)); }
+  97.5% { clip-path: inset(random(10%, 40%, 1%) 0 random(10%, 40%, 1%) 0); transform: translateX(random(-4px 4px, 1px)); }
 }
 
 /* Single image hover for changing an image (profile images/easter eggs) */
