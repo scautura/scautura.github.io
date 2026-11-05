@@ -1,6 +1,4 @@
-/* Copy this line into the top of your inline style; it isn't imported correctly within an external stylesheet */
-
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Berkshire+Swash&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&family=Eagle+Lake&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Pirata+One&display=swap');
+/* Fonts. There's no line to import fonts (add it in the inline styles) as it isn't imported correctly within an external stylesheet */
 
 .kg-font-bsc {
   font-family: "Bodoni Moda SC", serif;
@@ -40,6 +38,15 @@
 
 .kg-font-rg {
   font-family: "Rubik Glitch", system-ui;
+}
+
+.kg-font-64c {
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-variation-settings:
+    "BLED" random(0, 50, 1),
+    "SCAN" random(-20, 20, 1),
+    "XELA" random(-100, 100, 1),
+    "YELA" random(-100, 100, 1);
 }
 
 /* Default variables */
