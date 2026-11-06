@@ -258,7 +258,22 @@ details.kg-gallery {
   background: linear-gradient(to right, currentColor, transparent);
 }
 
-/* Hub bean, top right of profiles */
+/* Sticky floating header at the top of profiles */
+
+.kg-header {
+  position: sticky;
+  top: 10px;
+  z-index: 100;
+  background: var(--cs-color-black);
+  background: linear-gradient(135deg, #0000002a, #000000aa);
+  --webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 #0000005e;
+  border: 1px solid #ffffff2e;
+  border-radius: 6px;
+}
+
+/* Hub beans, top right of profiles */
 
 .kg-hub {
   background-color: var(--color-surface);
@@ -317,43 +332,43 @@ details.kg-gallery {
 /* Profile tabs */
 
 .kg-kristian {
-  border: 1px groove var(--cs-color-dull-red);
+  border: 1px groove var(--kg-color-kristian);
   border-radius: 5px;
   background: var(--color-bg);
 }
 
 .kg-vygo {
-  border: 1px groove var(--cs-color-purple);
+  border: 1px groove var(--kg-color-vygo);
   border-radius: 5px;
   background: var(--color-bg);
 }
 
 .kg-val {
-  border: 1px groove var(--cs-color-gray);
+  border: 1px groove var(--kg-color-val);
   border-radius: 5px;
   background: var(--color-bg);
 }
 
 .kg-asami {
-  border: 1px groove var(--cs-color-red);
+  border: 1px groove var(--kg-color-asami);
   border-radius: 5px;
   background: var(--color-bg);
 }
 
 .kg-steve {
-  border: 1px groove var(--cs-color-dull-blue);
+  border: 1px groove var(--kg-color-steve);
   border-radius: 5px;
   background: var(--color-bg);
 }
 
 .kg-remy {
-  border: 1px groove var(--cs-color-pink);
+  border: 1px groove var(--kg-color-remy);
   border-radius: 5px;
   background: var(--color-bg);
 }
 
 .kg-roy {
-  border: 1px groove var(--cs-color-teal);
+  border: 1px groove var(--kg-color-roy);
   border-radius: 5px;
   background: var(--color-bg);
 }
