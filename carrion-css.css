@@ -72,6 +72,10 @@
   font-family: "Spectral SC", serif;
 }
 
+.kg-font-bo {
+  font-family: "Boldonse", system-ui;
+}
+
 .kg-font-64c {
   font-family: "Sixtyfour Convergence", sans-serif;
   font-variation-settings:
