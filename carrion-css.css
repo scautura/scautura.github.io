@@ -172,6 +172,9 @@ blockquote p.kg-quote:hover:after, blockquote p.kg-quote:hover:before {
 
 ul.kg-list-tick {
   list-style-type: '✔️  ';
+  & li::marker {
+    color: green;
+  }
 }
 
 ul.kg-list-cross {
@@ -517,10 +520,10 @@ details[open].kg-kent, details[open].kg-supe, details[open].kg-dropdown {
 }
 
 @keyframes kg-glitch-anim {
-  0%, 90%, 100% { clip-path: none; transform: none; }
-  92.5% { clip-path: none; transform: translate(var(--kg-random-shift), var(--kg-random-shift)); }
-  95% { clip-path: inset(var(--kg-random-inset) 0 var(--kg-random-inset) 0); transform: translate(var(--kg-random-shift), var(--kg-random-shift)); }
-  97.5% { clip-path: inset(var(--kg-random-inset) 0 var(--kg-random-inset) 0); transform: none; }
+  0%, 92%, 100% { clip-path: none; transform: none; }
+  94% { clip-path: none; transform: translate(var(--kg-random-shift), var(--kg-random-shift)); }
+  96% { clip-path: inset(var(--kg-random-inset) 0 var(--kg-random-inset) 0); transform: translate(var(--kg-random-shift), var(--kg-random-shift)); }
+  98% { clip-path: inset(var(--kg-random-inset) 0 var(--kg-random-inset) 0); transform: none; }
 }
 
 /* Single image hover for changing an image (profile images/easter eggs) */
