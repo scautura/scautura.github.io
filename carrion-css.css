@@ -97,7 +97,12 @@ h2 {
   font-size: 2em;
 }
 
-h1, h2 {
+
+h3 {
+  font-size: 1.5em;
+}
+
+h1, h2, h3 {
   margin: 0;
   padding: 0;
 }
