@@ -86,6 +86,9 @@
 
 .kg-font-suc {
   font-family: "Stint Ultra Condensed", serif;
+  transform: scaleX(1.8);
+  font-weight: 200;
+  font-synthesis: weight small-caps style position;
 }
 
 .kg-font-arvo {
