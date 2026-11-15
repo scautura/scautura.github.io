@@ -336,7 +336,7 @@ div.playlist img, div.kg-playlist img {
 .kg-container {
   border-radius: .25rem; /* Default Bootstrap-like radius */
   overflow: hidden; /* Important for border-radius on fill */
-  box-shadow: inset 0 1px 2px rgba(0,0,0,.075);
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.75);
   height: 30px; /* Default height */
   position: relative; /* For labels if any */
 }
