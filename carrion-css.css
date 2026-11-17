@@ -84,6 +84,10 @@
   font-family: "Bebas Neue", sans-serif;
 }
 
+.kg-font-mic {
+  font-family: "Michroma", sans-serif;
+}
+
 .kg-font-suc {
   font-family: "Stint Ultra Condensed", serif;
   transform: scaleX(1.8);
